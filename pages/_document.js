@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+// import 'tailwindcss/tailwind.css'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
